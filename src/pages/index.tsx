@@ -1,6 +1,6 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
-import { Table } from '@/Components/Table';
+import { StudentsTable } from '@/Components/StudentsTable';
 
 const Home: NextPage = () => {
 	return (
@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 					href="/table.svg"
 				/>
 			</Head>
-			<Table />
+			<StudentsTable />
 		</>
 	);
 };
